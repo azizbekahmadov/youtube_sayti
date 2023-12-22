@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Youtube clone </title>
+</head>
+
+<body>
+
+  <!-- --------------------------Navbar Starts---------------------------->
+  <nav>
+    <!-- Left -->
+    <div class="left">
+      <button class="btn" id="menu_btn"><i class="fa fa-bars"></i></button>
+      <img src="logo.png" alt="logo">
+    </div>
+    <!-- Left -->
+
+    <!-- Middle -->
+    <div class="middle">
+      <div class="search">
+        <input type="text" placeholder="Search">
+        <button><i class="material-icons">search</i></button>
+      </div>
+
+      <button class="btn"><i class="material-icons">mic</i></button>
+    </div>
+    <!-- Middle -->
+
+
+    <!-- Right -->
+    <div class="right">
+      <button class="btn"><i class="material-icons">video_call</i></button>
+      <button class="btn"><i class="fa fa-bell-o"></i></button>
+      <div class="profile">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNrFreR1vBsHpmIybfANeQEc7yaNemXqnM7JNcuDjN&s"
+          alt="">
+      </div>
+    </div>
+    <!-- Right -->
+  </nav>
+  <!-- --------------------------Navbar Ends-------------------------- -->
+
+
+  <!-- ----------------------------Sidebar starts---------------------------- -->
+  <section class="sidebar" id="sidebar">
+    <ul class="sidebar__list">
+      <!-- ---------------List item starts ----------------->
+      <li class="sidebar__list_li active">
+        <span class="sidebar__list_li-icon"><i class="material-icons">home</i></span>
+        <span class="sidebar__list_li-text">Home</span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+      <!-- ---------------List item starts ----------------->
+      <li class="sidebar__list_li">
+        <span class="sidebar__list_li-icon"><i class="material-icons">videogame_asset</i></span>
+        <span class="sidebar__list_li-text">Shorts</span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+
+      <!-- ---------------List item starts ----------------->
+      <li class="sidebar__list_li">
+        <span class="sidebar__list_li-icon"><i class="material-icons">subscriptions</i></span>
+        <span class="sidebar__list_li-text">
+          Subscriptions
+        </span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+
+      <!-- ---------------List item starts  hr----------------->
+      <li class="sidebar__list_li hr_line">
+        <hr>
+      </li>
+      <!-- ---------------List item ends hr--------------- -->
+
+
+      <li class="sidebar__list_li">
+        <span class="sidebar__list_li-icon"><i class="material-icons">home</i></span>
+        <span class="sidebar__list_li-text">Home</span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+      <!-- ---------------List item starts ----------------->
+      <li class="sidebar__list_li">
+        <span class="sidebar__list_li-icon"><i class="material-icons">videogame_asset</i></span>
+        <span class="sidebar__list_li-text">Shorts</span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+
+      <!-- ---------------List item starts ----------------->
+      <li class="sidebar__list_li">
+        <span class="sidebar__list_li-icon"><i class="material-icons">subscriptions</i></span>
+        <span class="sidebar__list_li-text">
+          Subscriptions
+        </span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+
+      <!-- ---------------List item starts  hr----------------->
+      <li class="sidebar__list_li hr_line">
+        <hr>
+      </li>
+      <!-- ---------------List item ends hr--------------- -->
+
+      <!-- ---------------List item starts  title----------------->
+      <li class="sidebar__list_li title">
+        <h4>Subscriptions</h4>
+      </li>
+      <!-- ---------------List item ends title--------------- -->
+
+      <!-- ---------------List item starts ----------------->
+      <li class="sidebar__list_li">
+        <img class="sidebar__list_li-avatar"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNrFreR1vBsHpmIybfANeQEc7yaNemXqnM7JNcuDjN&s"
+          alt="Ozodbek's_phonto">
+        <span class="sidebar__list_li-text">
+          Ozodbek Bakhtiyorov
+        </span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+      <!-- ---------------List item starts ----------------->
+      <li class="sidebar__list_li">
+        <img class="sidebar__list_li-avatar"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNrFreR1vBsHpmIybfANeQEc7yaNemXqnM7JNcuDjN&s"
+          alt="Ozodbek's_phonto">
+        <span class="sidebar__list_li-text">
+          Ozodbek Bakhtiyorov
+        </span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+      <!-- ---------------List item starts ----------------->
+      <li class="sidebar__list_li">
+        <img class="sidebar__list_li-avatar"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNrFreR1vBsHpmIybfANeQEc7yaNemXqnM7JNcuDjN&s"
+          alt="Ozodbek's_phonto">
+        <span class="sidebar__list_li-text">
+          Ozodbek Bakhtiyorov
+        </span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+      <!-- ---------------List item starts ----------------->
+      <li class="sidebar__list_li">
+        <img class="sidebar__list_li-avatar"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNrFreR1vBsHpmIybfANeQEc7yaNemXqnM7JNcuDjN&s"
+          alt="Ozodbek's_phonto">
+        <span class="sidebar__list_li-text">
+          Ozodbek Bakhtiyorov
+        </span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+
+      <!-- ---------------List item starts  hr----------------->
+      <li class="sidebar__list_li hr_line">
+        <hr>
+      </li>
+      <!-- ---------------List item ends hr--------------- -->
+
+      <!-- ---------------List item starts  title----------------->
+      <li class="sidebar__list_li title">
+        <h4>Explore</h4>
+      </li>
+      <!-- ---------------List item ends  ----------------->
+
+
+      <!-- ---------------List item starts ----------------->
+      <li class="sidebar__list_li">
+        <span class="sidebar__list_li-icon"><i class="material-icons">subscriptions</i></span>
+        <span class="sidebar__list_li-text">
+          Subscriptions
+        </span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+
+
+      <!-- ---------------List item starts ----------------->
+      <li class="sidebar__list_li">
+        <span class="sidebar__list_li-icon"><i class="material-icons">subscriptions</i></span>
+        <span class="sidebar__list_li-text">
+          Subscriptions
+        </span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+
+
+      <!-- ---------------List item starts ----------------->
+      <li class="sidebar__list_li">
+        <span class="sidebar__list_li-icon"><i class="material-icons">subscriptions</i></span>
+        <span class="sidebar__list_li-text">
+          Subscriptions
+        </span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+
+      <!-- ---------------List item starts  hr----------------->
+      <li class="sidebar__list_li hr_line">
+        <hr>
+      </li>
+      <!-- ---------------List item ends hr--------------- -->
+
+
+      <!-- ---------------List item starts  title----------------->
+      <li class="sidebar__list_li title">
+        <h4>More from YouTube</h4>
+      </li>
+      <!-- ---------------List item ends  ----------------->
+
+      <!-- ---------------List item starts ----------------->
+      <li class="sidebar__list_li">
+        <span class="sidebar__list_li-icon"><i class="material-icons">subscriptions</i></span>
+        <span class="sidebar__list_li-text">
+          Subscriptions
+        </span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+
+      <!-- ---------------List item starts  hr----------------->
+      <li class="sidebar__list_li hr_line">
+        <hr>
+      </li>
+      <!-- ---------------List item ends hr--------------- -->
+
+      <!-- ---------------List item starts ----------------->
+      <li class="sidebar__list_li">
+        <span class="sidebar__list_li-icon"><i class="material-icons">subscriptions</i></span>
+        <span class="sidebar__list_li-text">
+          Subscriptions
+        </span>
+      </li>
+      <!-- ---------------List item ends--------------- -->
+      <!-- ---------------List item starts  hr----------------->
+      <li class="sidebar__list_li hr_line">
+        <hr>
+      </li>
+      <!-- ---------------List item ends hr--------------- -->
+
+
+      <li class="sidebar__list_li ">
+        <p>
+          AboutPressCopyrightContact usCreatorsAdvertiseDevelopers
+          TermsPrivacyPolicy & SafetyHow YouTube worksTest new features
+        </p>
+      </li>
+    </ul>
+
+  </section>
+  <!-- ----------------------------Sidebar starts---------------------------- -->
+
+
+  <!-- --------------------------------Main content starts-------------------------------- -->
+  <main id="main" class="mainContent">
+
+    <div class="mainContent__videos">
+
+      <!-- Video Card starts -->
+      <div class="videoCard">
+
+
+          <iframe class="videoCard__video"  src="https://www.youtube.com/embed/rc0e5ojk21M"
+            title="Muqaddas zamin │ Falastin" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+
+        <div class="videoCard__info">
+          <div class="videoCard__info_profile">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1666265384842-31bdda25f026?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="">
+            <h4>Insonning vazifasi © Abror Muxtor Aliy</h4>
+          </div>
+
+          <span>Kun uz</span>
+          <br>
+          <span>122K views 1 day ago</span>
+
+        </div>
+
+      </div>
+      <!-- Video Card ends -->
+      <!-- Video Card starts -->
+      <div class="videoCard">
+
+
+          <iframe class="videoCard__video"  src="https://www.youtube.com/embed/rc0e5ojk21M"
+            title="Muqaddas zamin │ Falastin" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+
+        <div class="videoCard__info">
+          <div class="videoCard__info_profile">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1666265384842-31bdda25f026?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="">
+            <h4>Insonning vazifasi © Abror Muxtor Aliy</h4>
+          </div>
+
+          <span>Kun uz</span>
+          <br>
+          <span>122K views 1 day ago</span>
+
+        </div>
+
+      </div>
+      <!-- Video Card ends -->
+      <!-- Video Card starts -->
+      <div class="videoCard">
+
+
+          <iframe class="videoCard__video"  src="https://www.youtube.com/embed/rc0e5ojk21M"
+            title="Muqaddas zamin │ Falastin" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+
+        <div class="videoCard__info">
+          <div class="videoCard__info_profile">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1666265384842-31bdda25f026?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="">
+            <h4>Insonning vazifasi © Abror Muxtor Aliy</h4>
+          </div>
+
+          <span>Kun uz</span>
+          <br>
+          <span>122K views 1 day ago</span>
+
+        </div>
+
+      </div>
+      <!-- Video Card ends -->
+      <!-- Video Card starts -->
+      <div class="videoCard">
+
+
+          <iframe class="videoCard__video"  src="https://www.youtube.com/embed/rc0e5ojk21M"
+            title="Muqaddas zamin │ Falastin" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+
+        <div class="videoCard__info">
+          <div class="videoCard__info_profile">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1666265384842-31bdda25f026?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="">
+            <h4>Insonning vazifasi © Abror Muxtor Aliy</h4>
+          </div>
+
+          <span>Kun uz</span>
+          <br>
+          <span>122K views 1 day ago</span>
+
+        </div>
+
+      </div>
+      <!-- Video Card ends -->
+      <!-- Video Card starts -->
+      <div class="videoCard">
+
+
+          <iframe class="videoCard__video"  src="https://www.youtube.com/embed/rc0e5ojk21M"
+            title="Muqaddas zamin │ Falastin" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+
+        <div class="videoCard__info">
+          <div class="videoCard__info_profile">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1666265384842-31bdda25f026?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="">
+            <h4>Insonning vazifasi © Abror Muxtor Aliy</h4>
+          </div>
+
+          <span>Kun uz</span>
+          <br>
+          <span>122K views 1 day ago</span>
+
+        </div>
+
+      </div>
+      <!-- Video Card ends -->
+      <!-- Video Card starts -->
+      <div class="videoCard">
+
+
+          <iframe class="videoCard__video"  src="https://www.youtube.com/embed/rc0e5ojk21M"
+            title="Muqaddas zamin │ Falastin" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+
+        <div class="videoCard__info">
+          <div class="videoCard__info_profile">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1666265384842-31bdda25f026?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="">
+            <h4>Insonning vazifasi © Abror Muxtor Aliy</h4>
+          </div>
+
+          <span>Kun uz</span>
+          <br>
+          <span>122K views 1 day ago</span>
+
+        </div>
+
+      </div>
+      <!-- Video Card ends -->
+      <!-- Video Card starts -->
+      <div class="videoCard">
+
+
+          <iframe class="videoCard__video"  src="https://www.youtube.com/embed/rc0e5ojk21M"
+            title="Muqaddas zamin │ Falastin" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+
+        <div class="videoCard__info">
+          <div class="videoCard__info_profile">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1666265384842-31bdda25f026?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="">
+            <h4>Insonning vazifasi © Abror Muxtor Aliy</h4>
+          </div>
+
+          <span>Kun uz</span>
+          <br>
+          <span>122K views 1 day ago</span>
+
+        </div>
+
+      </div>
+      <!-- Video Card ends -->
+      <!-- Video Card starts -->
+      <div class="videoCard">
+
+
+          <iframe class="videoCard__video"  src="https://www.youtube.com/embed/rc0e5ojk21M"
+            title="Muqaddas zamin │ Falastin" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+
+        <div class="videoCard__info">
+          <div class="videoCard__info_profile">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1666265384842-31bdda25f026?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="">
+            <h4>Insonning vazifasi © Abror Muxtor Aliy</h4>
+          </div>
+
+          <span>Kun uz</span>
+          <br>
+          <span>122K views 1 day ago</span>
+
+        </div>
+
+      </div>
+      <!-- Video Card ends -->
+      <!-- Video Card starts -->
+      <div class="videoCard">
+
+
+          <iframe class="videoCard__video"  src="https://www.youtube.com/embed/rc0e5ojk21M"
+            title="Muqaddas zamin │ Falastin" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+
+        <div class="videoCard__info">
+          <div class="videoCard__info_profile">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1666265384842-31bdda25f026?auto=format&fit=crop&q=60&w=900&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="">
+            <h4>Insonning vazifasi © Abror Muxtor Aliy</h4>
+          </div>
+
+          <span>Kun uz</span>
+          <br>
+          <span>122K views 1 day ago</span>
+
+        </div>
+
+      </div>
+      <!-- Video Card ends -->
+
+    </div>
+  </main>
+  <!-- --------------------------------Main content ends-------------------------------- -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
